@@ -1,6 +1,6 @@
 # Eleanor-Landing-Page
 This project showcases a visually striking and interactive landing page designed for a digital artist, creative developer, and interactive designer based in Amsterdam. The landing page employs modern web design techniques and leverages powerful libraries to create an engaging user experience.
-
+Demo : https://drive.google.com/file/d/1coCoAKEvpqmXxOgRykcAY4JcUy-veEw4/view?usp=drive_link
 Technologies Used
 HTML5: The structure of the web page is built using HTML5, ensuring semantic and accessible markup.
 CSS3: Custom styles are applied through CSS3, enhancing the visual appeal and layout.
