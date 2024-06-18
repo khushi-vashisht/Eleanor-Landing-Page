@@ -1,0 +1,412 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@font-face {
+    font-family: dom;
+    src: url(./5f242a69b1577e63266b4d72_DomaineDispCondMedium.ttf);
+}
+
+html, body{
+  height:100%;
+  width:100%;
+  background-color: black;
+}
+#main{
+    background-color: black;
+    overflow: hidden;
+}
+#page1{
+    height:110vh;
+    width:100vw;
+    background-color: #C4BDB3;
+    position:relative;
+    overflow-x: hidden;
+}
+
+#nav{
+    height:100px;
+    width:100%;
+    display:flex;
+    padding:0 30px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+#nav img{
+    height: 25px;
+    width:30%;
+}
+
+#nav h4{
+    font-weight:100;
+    width:30%;
+}
+
+#nav i{
+    width:30%;
+    text-align: right;
+}
+
+#elems{
+    height:330px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px 60px;
+}
+
+#elem1{
+    width:30%;
+    height:100%;
+}
+
+#elem2{
+    width:30%;
+    height:100%;
+    border-right:1px solid black;
+    padding:20px 60px;
+    text-align:center;
+    border-left:1px solid black;
+
+}
+#elem3{
+    width:30%;
+    height:100%;
+}
+
+#elem1 #img-div{
+  height:50%;
+  width:100%;
+  /* overflow: hidden; */
+}
+#img-div img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    transition:all ease 0.5s;
+}
+#elem3 #img-div{
+    height:50%;
+    width:100%;
+    /* overflow: hidden; */
+ }
+
+ #img-div:hover img{
+    scale:1.2;
+ }
+
+ #elem1 h4{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+ }
+
+ #elem1 h4 span{
+    background-color: #B43B12;
+    color:#C4BDB3 ;
+    font-weight:400;
+    font-size: 15px;
+    padding:2px;
+    border-radius: 0.1rem;
+ }
+
+ #elem1 p{
+    font-size: 20px;
+    font-family: dom;
+    color:#726E68;
+ }
+
+ #elem3 h4{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+ }
+
+ #elem3 h4 span{
+    background-color: #B43B12;
+    color:#C4BDB3 ;
+    font-weight:400;
+    font-size: 15px;
+    padding:2px;
+    border-radius: 0.1rem;
+ }
+
+ #elem3 p{
+    font-size: 20px;
+    font-family: dom;
+    color:#726E68;
+ }
+
+ #elem2 h2{
+    font-family: canopee;
+    font-size: 60px;
+    font-weight: 125;
+ }
+
+ #elem2 h3{
+   font-size: 25px;
+   font-family: dom;
+   margin:20px 0;
+ }
+
+ #elem2 p{
+    font-size: 15px;
+    font-family: dom;
+    margin:20px 0;
+  }
+
+  #page1 h1{
+    font-size: 470px;
+    font-family: canopee;
+    font-weight: 100;
+    background-color: #1C1C19;
+    color:#C4BDB3 ;
+    line-height: 400px;
+    width:96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    letter-spacing: -20px;
+    
+  }
+
+
+  #page2{
+    height:160vh;
+    width:100%;
+    background-color: #C4BDB3;
+    display:flex;
+    align-items: center;
+    padding:90px 40px;    
+   overflow-x: hidden;
+    justify-content: space-between;
+  }
+
+  #page2-left{
+   height:100%;
+    width:35%;
+    padding-right:50px;
+   border-right: 1px solid #222;
+  }
+
+  #page2-left h2{
+    font-size: 100px;
+    font-family: canopee;
+    line-height: 90px;
+    font-weight: 50;
+    letter-spacing: -5px;
+  }
+
+  #page2-left h2 span{
+    font-size: 120px;
+    font-weight: 200;
+  }
+
+  #page2-left img{
+    height:50%;
+    width:100%;
+    object-fit: cover;
+  }
+
+  #page2-left p{
+    font-size:25px;
+    font-family: dom;
+    color:#1C1C19;
+    margin-top:20px;
+  }
+  #page2-right{
+    height:100%;
+    width:60%;
+    padding:0 40px;
+  }
+
+  #page2-right img{
+    height:60%;
+    width:100%;
+    object-fit: cover;
+  }
+
+  #page2-right h1{
+    font-family: canopee;
+    font-size: 75px;
+    letter-spacing: -1px;
+    font-weight: 200;
+  }
+
+#page3{
+    padding-bottom:100px ;
+    position: relative;
+    background-color: #C4BDB3;
+}
+
+#page3 h1{
+    font-size: 350px;
+    font-family: canopee;
+    background-color: #1C1C19;
+    color:#C4BDB3;
+    width:70%;
+    font-weight: 100;
+    letter-spacing: -10px;
+    margin-left: 2%;
+    padding: 0 5px;
+    line-height: 350px;
+}
+
+#page3 img{
+   height: 350px;
+   position: absolute;
+   top:0;
+   right:3%;
+}
+
+#page4{
+  height:70vh;
+  width:100vw;
+  background-color: #C4BDB3;
+  position:relative;
+  overflow-x: hidden;
+}
+
+#elems4{
+  height:330px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 40px;
+
+}
+#elem-1{
+  height:100%;
+  width: 30%;
+  align-content: left;
+}
+#elem-1 h2{
+  font-family: dom;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom:10px;
+}
+
+#elem-1 h3{
+  font-family: dom;
+  font-size: 30px;
+  font-weight: 200;
+  color: #726E68;
+  margin-bottom:10px;
+}
+
+
+#elem-2{
+  height:100%;
+  width:35%;
+  border-left:1px solid black;
+  border-right:1px solid black;
+  padding:20px 25px;
+}
+
+#imgdiv{
+  height:50%;
+  width:100%;
+}
+
+#imgdiv img{
+  height: 100%;
+  width:100%;
+  object-fit: cover;
+  transition:all ease 0.5s;
+  padding:15px 20px;
+}
+
+
+#imgdiv:hover img{
+  scale:1.2;
+}
+
+#elem-2 h4{
+font-family: dom;
+font-size: 20px;
+margin-top:10px;
+margin-bottom: 10px;
+}
+
+#elem-2 p{
+  font-family: dom;
+  color:#726E68;
+}
+
+#elem-3{
+  height:100%;
+  width:35%;
+  align-content: center;
+  padding-left: 20px;
+  
+}
+
+#elem-3 h1{
+  font-family: canopee;
+  font-size: 85px;
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+
+#elem-3 h1 span{
+  font-size: 140px;
+  align-content: center;
+  padding-left: 40px;
+  letter-spacing: 2px;
+}
+
+#page5 {
+  padding: 25px 0;
+  width: 100%;
+  background-color: #C4BCB3;
+  border-top: 1px solid #2f2f2f;
+  border-bottom: 1px solid #2f2f2f;
+
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#page5::-webkit-scrollbar {
+  display: none;
+}
+
+#page5 h1 {
+  font-size: 70px;
+  font-family: domain;
+  font-weight: 100;
+  display: inline-block;
+  /* background-color: red; */
+  animation-timing-function: linear;
+  margin-right: 30px;
+  animation-name: scroll;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+#page5 h1 span {
+  font-family: canopee;
+  background-color: #1b1b1b;
+  color: #C4BCB3;
+  padding: 0 12px;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0);
+  }
+
+  100% {
+      transform: translateX(calc(-100% - 34px));
+  }
+}
+
+#page5:hover h1{
+  animation-play-state: paused;
+}
